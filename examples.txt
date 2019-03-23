@@ -1,0 +1,44 @@
+SOCKET  -> Module 
+
+import socket
+
+
+65535
+
+1000 > 
+
+socket(<socket_family>,<socket_type>)
+AF_INET
+SOCK_STREAM -> TCP 
+SOCK_DGRAM -> UDP
+
+eg Server </>
+
+import socket
+
+//conn = socket.socket(AF_INET,SOCK_STREAM)
+
+bind((<hostname>,<PORT>))
+
+listen()
+
+accept()
+
+close()
+
+eg client </>
+
+connect((<hostname>,<PORT>))
+
+send(message)
+
+recv(buffer) => buffer ->  recving size 
+
+
+
+close()
+
+
+
+
+
